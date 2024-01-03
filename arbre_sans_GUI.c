@@ -4,8 +4,8 @@
 // Définition d'une structure pour les nœuds de l'arbre binaire
 struct Node {
     int data;
-    struct Node* gauche;
-    struct Node* droite;
+    struct Node* left;
+    struct Node* right;
 };
 
 // Fonction pour créer un nouveau nœud
